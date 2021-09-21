@@ -66,3 +66,54 @@
     background: rgba(0, 0, 0, 0.65);
     height: 2px;
 }
+/*STACKS*/
+div.card-stack {
+    background-color: #1a1a1a;
+    border-radius: 25px;
+    overflow: hidden;
+    text-align: center;
+    min-height: 300px;
+    color: #ffffff;
+    box-shadow: #000000 0px 1px 5px;
+}
+div.card-stack-header {
+    background: #2e2e2e;  
+    background: -webkit-linear-gradient(to right, #1a1a1a, #2e2e2e, #1a1a1a); 
+    background: linear-gradient(to right, #1a1a1a, #2e2e2e, #1a1a1a);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+div.card-stack-header h2, 
+div.card-stack-header i {
+    text-shadow: #3B93F7 0px 0px 5px;
+}
+div.card-stack-header i {
+    font-size: 40px;
+    margin: 10px 0px;
+}
+div.card-stack-body{
+    background-color: #3B93F7;
+}
+div.stack-division {
+    background: #ffffff;  
+    background: -webkit-linear-gradient(to right, #1a1a1a, #ffffff, #1a1a1a); 
+    background: linear-gradient(to right, #1a1a1a, #ffffff, #1a1a1a);
+    height: 3px;
+}
+div.stack-frontend {
+    background: #3B93F7;  
+    background: -webkit-linear-gradient(to right, #1a1a1a, #3B93F7, #1a1a1a); 
+    background: linear-gradient(to right, #1a1a1a, #3B93F7, #1a1a1a);
+    padding: 10px 0px;
+}
+div.stack-backend {
+    background: #1a1a1a;  
+    background: -webkit-linear-gradient(to left, #3B93F7, #1a1a1a, #1a1a1a, #3B93F7); 
+    background: linear-gradient(to left, #3B93F7, #1a1a1a, #1a1a1a, #3B93F7);  
+    padding: 10px 0px;
+}
+div.stack-frontend p, 
+div.stack-backend p {
+    text-shadow: #000000 1px 1px 1px;
+    font-size: 20px;
+}
