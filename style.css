@@ -1,3 +1,7 @@
+:root {
+    --azul: #3B93F7;
+    --negro: #1a1a1a;
+}
 .circle-container {
     width: 200px;
     height: 200px;
@@ -131,4 +135,18 @@ div.stack-frontend p,
 div.stack-backend p {
     text-shadow: #000000 1px 1px 1px;
     font-size: 20px;
+}
+/*STACK BY NAME*/
+.bagr-blue {
+    background-color: var(--azul);
+}
+
+.bagr-black {
+    background-color: var(--negro);
+}
+.txt-blue {
+    color: var(--azul);
+}
+.txt-black {
+    color: var(--negro);
 }
